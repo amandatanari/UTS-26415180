@@ -1,0 +1,1 @@
+awk BEGIN {RS="" FS="\n" OFS=","} {max=-9999999 min=9999999 sum=0	for (i=1;i<=NF;++i) {split($i,r,",") if (r[8]>max) { max=r[8] } if (r[8]<min) { min=r[8] } sum+=r[8]} print r[1],r[3],r[4],NF,min,max,sum/NF}' soal.csv

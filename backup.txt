@@ -1,0 +1,217 @@
+ 1378  cd Documents/
+ 1379  cd 26415180/
+ 1380  mkdir UTS-26415180
+ 1381  touch UTS-26415180.txt
+ 1382  nano UTS-
+ 1383  ls
+ 1384  cd UTS-26415180/
+ 1385  ls
+ 1386  touch UTS-26415180.txt
+ 1387  curl http://api.worldbank.org/v2/en/indicator/SI.POV.GINI?downloadformat=csv
+ 1388  62;c
+ 1389  wget http://api.worldbank.org/v2/en/indicator/SI.POV.GINI?downloadformat=csv
+ 1390  history >> backup.txt
+ 1391  unzip SI.POV.GINI?downloadformat=csv
+ 1392  history >>backup.txt
+ 1393  cp API_SI.POV.GINI_DS2_en_csv_v2.csv soal.csv
+ 1394  echo soal.csv 
+ 1395  cat soal.csv 
+ 1396  nano script.sh
+ 1397  sed soal.csv 
+ 1398  sed s/"//g soal.csv
+ 1399  sed s/""//g soal.csv
+ 1400  sed s/""/ /g soal.csv
+ 1401  awk s/""/ /g soal.csv
+ 1402  sed -n ""! soal.csv 
+ 1403  sed -n "! soal.csv 
+ 1404  sed -n '"!' soal.csv 
+ 1405  sed s/&"//g soal.csv 
+ 1406  grep -v """ soal.csv
+ 1407  grep -v "" soal.csv
+ 1408  grep -v " soal.csv
+ 1409  grep "Country Code" soal.csv 
+ 1410  grep -v "Country Code" soal.csv 
+ 1411  grep -v ["] soal.csv
+ 1412  grep -v '["]' soal.csv
+ 1413  grep -v "["]" soal.csv
+ 1414  grep  '[0-9]' soal.csv
+ 1415  grep  '[0-9]' soal.csv | xargs
+ 1416  grep  '[0-9]' soal.csv | grep -v '[,]' | xargs
+ 1417  grep  '[0-9]' soal.csv | grep -v '[,]'
+ 1418  grep -v '[,]' soal.csv 
+ 1419  grep -v "[,]" soal.csv 
+ 1420  grep "[,]" soal.csv 
+ 1421  grep "[,]["]" soal.csv 
+ 1422  grep "[,"]" soal.csv 
+ 1423  grep "[",]" soal.csv 
+ 1424  grep '[",]' soal.csv 
+ 1425  grep -v '[",]' soal.csv 
+ 1426  grep '[",]' soal.csv 
+ 1427  grep '[",]' soal.csv | xargs
+ 1428  grep '[",](GINI index (World Bank estimate))(SI.POV.GINI)' soal.csv
+ 1429  grep -o "[A-Z,a-z,0-9]" soal.csv 
+ 1430  grep -o "[A-Z,a-z,0-9]" soal.csv | xargs
+ 1431  grep -o "[A-Z,a-z,0-9]" soal.csv | grep -v "[",]" | xargs
+ 1432  grep "[A-Z]" | grep -o "[A-Z,a-z,0-9]" soal.csv | xargs
+ 1433  grep "[A-Z]" soal.csv | grep -o "[A-Z,a-z,0-9]" soal.csv | xargs
+ 1434  grep "[A-Z]" soal.csv | grep -o "[A-Z,a-z,0-9]" | xargs
+ 1435  grep "[A-Z]" soal.csv | grep -o "[A-Z,a-z,0-9]" | grep -v "[,]" | xargs
+ 1436  grep "[A-Z]" soal.csv | grep -o "[A-Z,a-z,0-9]" | grep -v "[,](GINI index)" | xargs
+ 1437  grep "[A-Z,0-9]" soal.csv | grep -o "[A-Z,a-z,0-9]" | grep -v "[,]" | xargs
+ 1438  grep "[A-Z]" soal.csv | grep -o "[A-Z,a-z,0-9]" | grep -v "[,]" | grep -v "(GINI index World Bank estimates)" | xargs
+ 1439  grep "[A-Z,0-9]" soal.csv 
+ 1440  grep "[A-Z]0-9]" soal.csv 
+ 1441  grep "[A-Z][0-9]" soal.csv 
+ 1442  grep "[A-Z][A-Z][A-Z][0-9]" soal.csv 
+ 1443  grep "[A-Z][A-Z][A-Z]" soal.csv 
+ 1444  grep "[A-Z][A-Z][A-Z,0-9]" soal.csv 
+ 1445  grep "[A-Z][A-Z][A-Z]" soal.csv 
+ 1446  grep "[A-Z][A-Z][A-Z]" soal.csv | grep "[0-9].[0-9]*"
+ 1447  grep "[A-Z][A-Z][A-Z]" soal.csv | grep -o "[0-9].[0-9]*"
+ 1448  grep "[A-Z][A-Z][A-Z]" soal.csv | grep -o "[0-9].[0-9]*" | xargs
+ 1449  grep "[A-Z][A-Z][A-Z]" soal.csv | grep -0 "[0-9].[0-9]*" | xargs
+ 1450  grep "[A-Z][A-Z][A-Z]" soal.csv | xargs
+ 1451  grep "[0-9]" soal.csv | xargs
+ 1452  xargs soal.csv
+ 1453  grep ",,,,,,,,,,,,,,,,,,,,,,," soal.csv
+ 1454  grep -e ",,,,,,,,,,,,,,,,,,,,,,," soal.csv
+ 1455  grep -e ',,,,,,,,,,,,,,,,,,,,,,,' soal.csv
+ 1456  awk -F, '$5==""' soal.csv 
+ 1457  awk -F, '$20==""' soal.csv 
+ 1458  awk -F, '$30==""' soal.csv 
+ 1459  awk -F, '$10==""' soal.csv 
+ 1460  awk -F, '$50==""' soal.csv 
+ 1461  awk -F, '$57==""' soal.csv 
+ 1462  curl https://aplikasi.pertanian.go.id/smshargakab/qrylapharprov.asp
+ 1463  curl -s https://aplikasi.pertanian.go.id/smshargakab/qrylapharprov.asp
+ 1464  ls
+ 1465  nano script.sh 
+ 1466  nano coba.py
+ 1467  rm coba.py
+ 1468  nano coba.py
+ 1469  rm coba.py
+ 1470  ls
+ 1471  git status
+ 1472  cd ..
+ 1473  git status
+ 1474  cd UTS-26415180/
+ 1475  history > backup.txt
+ 1476  nano script.sh
+ 1477  chmod +x script.sh 
+ 1478  sh script.sh 
+ 1479  nano script.sh 
+ 1480  sh script.sh 
+ 1481  nano script.sh 
+ 1482  sh script.sh 
+ 1483  nano script.sh 
+ 1484  sh script.sh 
+ 1485  sed s//g soal.csv
+ 1486  awk 'BEGIN { FS = OFS = "\t" } { for(i=1; i<=NF; i++) if($i ~ /^ *$/) $i = 0 }; 1' soal.csv
+ 1487  awk 'BEGIN { FS = OFS = """" } { for(i=1; i<=NF; i++) if($i ~ /^ *$/) $i = 0 }; 1' soal.csv
+ 1488  awk 'BEGIN { FS = OFS = " "" " } { for(i=1; i<=NF; i++) if($i ~ /^ *$/) $i = 0 }; 1' soal.csv
+ 1489  awk '
+ 1490  BEGIN {
+ 1491          RS=""
+ 1492          FS="\n"
+ 1493          OFS=","
+ 1494  }
+ 1495  {
+ 1496          max=-9999999
+ 1497          min=9999999
+ 1498          sum=0
+ 1499          for(i=1;i<=NF;++i) {
+ 1500                  split($i,r,",")
+ 1501                  if (r[8]>max) { max=r[8] }
+ 1502                  if (r[8]<min) { min=r[8] }
+ 1503                  sum+=r[8]
+ 1504          }
+ 1505          print r[1],r[3],r[4],NF,min,max,sum/NF
+ 1506  nano script.sh 
+ 1507  cahistory
+ 1508  history
+ 1509  history > backup.txt
+ 1510  cd Documents/26415180/UTS-26415180/
+ 1511  ls
+ 1512  nano script.sh
+ 1513  nano script.sh.save 
+ 1514  mv script.sh.save script.sh
+ 1515  nano script.sh 
+ 1516  sh script.sh 
+ 1517  nano script.sh 
+ 1518  sh script.sh 
+ 1519  nano script.sh 
+ 1520  sh script.sh 
+ 1521  git status
+ 1522  nano script.sh 
+ 1523  sh script.sh 
+ 1524  nano script.sh 
+ 1525  awk
+ 1526  cp API_SI.POV.GINI_DS2_en_csv_v2.csv soal.csv
+ 1527  awk '
+BEGIN {
+        RS=""
+        FS="\n"
+        OFS=","
+}
+{
+        max=-9999999
+        min=9999999
+        sum=0
+        for(i=5;i<=NF;++i) {
+                split($i,r,",")
+                if (r[61]>max) { max=r[61] }
+                if (r[61]<min) { min=r[61] }
+                sum+=r[61]
+        }
+        print r[1],r[3],r[4],NF,min,max,sum/NF
+}' soal.csv
+ 1528  awk '
+BEGIN {
+        RS=""
+        FS="\n"
+        OFS=","
+}
+{
+        max=-9999999
+        min=9999999
+        sum=0
+        for(i=5;i<=NF;++i) {
+                split($i,r,",")
+                if (r[61]>max) { max=r[61] }
+                if (r[61]<min) { min=r[61] }
+                sum+=r[61]
+        }
+        print r[1],r[3],r[4],NF,min,max,sum/NF
+}' soal.csv
+ 1529  awk '
+awk '
+ 1530  awk '
+BEGIN {
+ 1531  history > backup.txt
+ 1532  xargs soal.csv
+ 1533  cat soal.csv 
+ 1534  cat soal.csv | xargs
+ 1535  sed s/'"/|/g soal.csv
+ 1536  sed s/"'"/|/g soal.csv
+ 1537  sed s/"["]"/|/g soal.csv
+
+ 1538  sed s/"/|/g soal.csv 
+ 1539  sed s/","/|/g soal.csv 
+ 1540  sed /","/|/ soal.csv 
+ 1541  sed -e /","/|/ soal.csv 
+ 1542  sed -e ","/|/ soal.csv 
+ 1543  sed -e "," | soal.csv 
+ 1544  sed -e """ | soal.csv 
+ 1545  sed -e ',' | soal.csv 
+ 1546  sed -e '",' | soal.csv 
+ 1547  ls
+ 1548  nano script.sh
+ 1549  awk BEGIN {RS="" FS="\n" OFS=","} {max=-9999999 min=9999999 sum=0 for(i=1;i<=NF;++i) {split($i,r,",") if (r[8]>max) { max=r[8] } if (r[8]<min) { min=r[8] } sum+=r[8]} print r[1],r[3],r[4],NF,min,max,sum/NF}' soal.csv
+ 1550  nano coba.sh
+ 1551  chmod +x coba.sh 
+ 1552  sh coba.sh 
+ 1553  nano coba.sh
+ 1554  sh coba.sh 
+ 1555  nano coba.sh
+ 1556  sh coba.sh 
+ 1557  history >> backup.txt
